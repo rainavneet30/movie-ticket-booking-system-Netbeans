@@ -154,7 +154,7 @@ public class login extends javax.swing.JFrame {
    try
    {
        Class.forName("com.mysql.jdbc.Driver");
-       c=DriverManager.getConnection("jdbc:mysql://localhost/db","root","");
+       c=DriverManager.getConnection("jdbc:mysql://localhost/java_dbmovies","root","");
        s=c.createStatement();
        String a=jTextField1.getText();
        String b=jPasswordField1.getText();

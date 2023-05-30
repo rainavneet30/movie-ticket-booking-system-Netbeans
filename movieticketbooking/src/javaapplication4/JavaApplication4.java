@@ -18,7 +18,7 @@ public class JavaApplication4 {
 public static Connection ConnecrDb(){
     try{
         Class.forName("com.mysql.jdbc.Driver");
-        Connection conn =DriverManager.getConnection("jdbc:mysql://localhost/db","root","");
+        Connection conn =DriverManager.getConnection("jdbc:mysql://localhost/java_dbmovies","root","");
         return conn;
     }
     catch(Exception e)
